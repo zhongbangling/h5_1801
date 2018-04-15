@@ -1,0 +1,79 @@
+#nav{
+    border-bottom:2px solid #DDDDDD;
+}
+
+#main{
+    height:620px;
+    .container{
+        height:620px;
+        .main_t{
+            height:96px;
+            margin-left:148px;
+            margin-right:148px;
+            padding-top:48px;
+            border-bottom:1px solid #CCCCCC;
+            p{
+                font-size:20px;
+                line-height:48px;
+                color:#999999;
+            }
+        }
+        .main_b{
+            height:438px;
+            padding-left:148px;
+            padding-top:34px;
+            .main_br{
+                padding-left:70px;
+                p{
+                    padding-bottom:24px;
+                    text-align:right;
+                    label{
+                        padding-right:30px;
+                        font-size:16px;
+                        line-height:42px;
+                        color:#999999;
+                    }
+                    input{
+                        width:295px;
+                        height:42px;
+                        border:1px solid #999999;
+                    }
+                    .yzm{
+                        width:233px;  
+                    }
+                    .yam1{
+                        display:block;
+                        width:60px;
+                        height:42px;
+                        line-height:42px;
+                        text-align:center;
+                        background-color:#ccc;
+                        color:#999999;
+                        }
+                    button{
+                        width:75px;
+                        height:42px;
+                        background-color:#EAEAEA;
+                        color:#333333;
+                        border-radius:5px;
+                    }
+                    .btn0{
+                        width:145px;
+                        
+                    }
+                    .btn{
+                        background-color:#64A131;
+                        color:#fff;
+                        font-size:20px;
+                    }
+                    .btn1{
+                        border:1px solid #64A131;
+                        background-color:#fff;
+                        color:#64A131;
+                        font-size:20px;
+                    }
+                }
+            }
+        }
+    }
+}

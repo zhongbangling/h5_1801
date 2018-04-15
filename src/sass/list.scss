@@ -1,0 +1,231 @@
+#nav{
+    .container{
+        .nav_t{
+            border-bottom:2px solid #DDDDDD;
+            .nav_c{
+                padding-top:42px;
+                li{
+                    float:left;
+                    a{
+                        font-size:14px;
+                        color:#999999;
+                        padding:0 25px;
+                        border-right:1px solid #EEEEEE;
+                        display:block;
+                        text-align:center;
+                        &:hover{
+                            background-color:#DDDDDD;
+                        }
+                        span{
+                            display:block;
+                        }
+                    }
+                }
+            }
+            .nav_r{
+                padding-left:160px;
+                padding-top:40px;
+                position:relative;
+                .nav_r1{
+                    width:180px;
+                    font-size:12px;
+                    border-bottom:1px solid #999999;
+                    padding-bottom:5px;
+                }
+                .i1{
+                    display:block;
+                    width:32px;
+                    height:32px;
+                    position:absolute;
+                    left:310px;
+                    top:35px;
+                }
+                p{
+                    font-size:12px;
+                    color:#999999;
+                    line-height:20px;
+                }
+            }
+            .car_t{
+                width:140px;
+                line-height:42px;
+                background:#FAFAFA;
+                text-align:center;
+                border:1px solid #DDDDDD;
+                cursor:default;
+                padding-left:10px;
+                margin-top:35px;
+                position:relative;
+                .car_t1{
+                    display:block;
+                    width:35px;
+                    height:35px;
+                    position:absolute;
+                    right:90px;
+                    top:5px;
+                }
+                .car_t2{
+                    position:absolute;
+                    right:0;
+                    width:350px;
+                    border:1px solid #DDDDDD;
+                    display:none;
+                    background-color:#fff;
+                    font-size:14px;
+                    color:#999999;
+                    .car_t3{
+                        height:50px;
+                        background-color:#FAFAFA;
+                        position:relative;
+                        a{
+                            width:240px;
+                            text-align:center;
+                            color:#fff;
+                            font-size:18px;
+                            line-height:40px;
+                            border-radius:10px;
+                            background:#64A131;
+                            position:absolute;
+                            right:30px;
+                            top:6px;
+                        }
+                    }
+                    ul{
+                        overflow:hidden;
+                        li{
+                            padding:10px;
+                            font-size:12px;
+                            img{
+                                display:inline-block;
+                                width:50px;
+                                height:50px;
+                            }
+                            .tit{
+                                width:140px;
+                                line-height:20px;color:#333333;height:50px;
+                                text-align:left;
+                                margin:0 10px;
+                            }
+                            div{
+                                width:100px;
+                                height:50px;
+                                line-height:20px;
+                                .jg{
+                                    padding-right:10px;
+                                }
+                                span{
+                                    padding-left:70px;
+                                    color:#999999;
+                                    cursor:pointer;
+                                }
+                            }
+                        }
+                    }
+                }
+                &:hover{
+                    .car_t2{
+                        display:block;
+                    }
+                }
+            }
+        }
+        .nav_b{
+            p{
+                // display:inline-block;
+                font-size:14px;
+                line-height:24px;
+                color:#555555;
+                a{
+                    color:#555555;
+                    padding:0 8px;
+                    span{
+                    background-color:#64A131;
+                    padding:4px 8px;
+                    color:#fff;
+                    }
+                }
+                
+            }
+            .p1{
+                padding-top:37px;
+                padding-bottom:6px;
+                border-bottom:1px solid #CCCCCC;
+            }
+            .p2{
+                padding-top:12px;
+                padding-bottom:6px;
+                border-bottom:1px solid #CCCCCC;
+            }
+            
+        }
+    }
+}
+
+
+#main{
+    .container{
+        .p3{
+            .btn{
+                background-color:#64A131;
+                padding:5px 9px;
+                color:#fff;
+            }
+            padding-top:12px;
+            font-size:14px;
+            padding-bottom:20px;
+            button{
+                margin:4px 8px;
+            }
+            .btn1,.btn2{
+                background-color:#CCCCCC;
+                padding:5px 9px;
+            }
+        }
+        .main_list{
+            padding-right:260px;
+            padding-bottom:135px;
+            li{
+                float:left;
+                padding:0 5px;
+                position:relative;
+                height:315px;
+                img{
+                    &:hover{
+                        transform: scale3d(1.05,1.05,1);
+                        transition: transform 0.8s;
+                    }
+                }
+                .tp{
+                    display:block;
+                    width:245px;
+                    height:245px;
+                }
+                .name{
+                    font-size:14px;
+                    line-height:38px;
+                    color:#333333;
+                    .price{
+                        float:right;
+                        color:#999999;
+                    }
+                }
+                .qty{
+                    font-size:12px;
+                    width:60px;
+                    border:1px solid #ccc;
+                    color:#999999;
+                    padding:0 6px;
+                    text-align:center;
+                }
+                .car{
+                    display:block;
+                    position:absolute;
+                    width:35px;
+                    height:35px;
+                    right:10px;
+                    bottom:3px;
+                }
+            }
+        }
+    }
+}

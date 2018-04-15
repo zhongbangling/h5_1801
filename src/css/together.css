@@ -1,0 +1,239 @@
+#header {
+  background-color: #EEEEEE;
+  height: 30px;
+}
+
+#header .container .head_l {
+  width: 240px;
+  font-size: 12px;
+  height: 30px;
+  line-height: 29px;
+  color: #999999;
+  position: relative;
+}
+
+#header .container .head_l p {
+  position: relative;
+}
+
+#header .container .head_l p img {
+  display: block;
+  width: 18px;
+  height: 16px;
+  margin: 8px 4px;
+}
+
+#header .container .head_l a {
+  font-size: 12px;
+  color: #64A131;
+}
+
+#header .container .head_l a:hover {
+  text-decoration: underline;
+}
+
+#header .container .head_r li {
+  float: left;
+  position: relative;
+}
+
+#header .container .head_r li span {
+  font-size: 12px;
+  color: #999999;
+  padding: 0 13px;
+  line-height: 30px;
+  border-right: 1px solid #AE99AE;
+}
+
+#header .container .head_r li span:hover {
+  color: #F6AB00;
+}
+
+#header .container .head_r .notice {
+  position: relative;
+}
+
+#header .container .head_r .notice .atice {
+  position: absolute;
+  right: 0;
+  width: 225px;
+  height: 120px;
+  background-color: #fff;
+  border: 1px solid #DDDDDD;
+  display: none;
+  z-index: 110;
+}
+
+#header .container .head_r .notice .atice p {
+  border-bottom: 1px dotted #dddddd;
+  padding-left: 30px;
+}
+
+#header .container .head_r .notice .atice p a {
+  font-size: 14px;
+  color: #555555;
+  line-height: 34px;
+}
+
+#header .container .head_r .notice .atice p a:hover {
+  color: #64A131;
+}
+
+#header .container .head_r .notice:hover {
+  background-color: #fff;
+}
+
+#header .container .head_r .notice:hover .atice {
+  display: block;
+}
+
+#header .container .head_r .sj {
+  position: relative;
+}
+
+#header .container .head_r .sj .sj1 {
+  position: absolute;
+  right: 0;
+  width: 290px;
+  height: 290px;
+  background-color: #fff;
+  border: 1px solid #DDDDDD;
+  display: none;
+  z-index: 120;
+}
+
+#header .container .head_r .sj .sj1 img {
+  padding: 5px;
+}
+
+#header .container .head_r .sj:hover {
+  background-color: #fff;
+}
+
+#header .container .head_r .sj:hover .sj1 {
+  display: block;
+}
+
+#link .container .link_t {
+  height: 106px;
+  border-top: 1px solid #DDDDDD;
+  border-bottom: 1px solid #DDDDDD;
+}
+
+#link .container .link_t div {
+  width: 25%;
+  border-right: 1px solid #DDDDDD;
+}
+
+#link .container .link_t div img {
+  display: inline-block;
+}
+
+#link .container .link_t div h3 {
+  font-size: 20px;
+  line-height: 28px;
+  padding-top: 25px;
+  padding-left: 133px;
+  font-weight: bold;
+  color: #555555;
+}
+
+#link .container .link_t div p {
+  font-size: 14px;
+  line-height: 22px;
+  padding-left: 133px;
+  color: #999999;
+}
+
+#link .container .link_c {
+  padding-left: 245px;
+  padding-top: 20px;
+}
+
+#link .container .link_c p {
+  font-size: 14px;
+  line-height: 34px;
+  color: #999999;
+  text-align: center;
+}
+
+#link .container .link_c img {
+  display: inline-block;
+}
+
+#link .container .link_c .link_c1 {
+  padding-top: 20px;
+}
+
+#link .container .link_c .link_cc {
+  padding-left: 45px;
+}
+
+#link .container .link_c .link_cr {
+  padding-left: 58px;
+}
+
+#link .container .link_c .link_cr dl {
+  padding: 0 15px;
+  float: left;
+}
+
+#link .container .link_c .link_cr dl dt {
+  font-size: 16px;
+  line-height: 38px;
+}
+
+#link .container .link_c .link_cr dl dd {
+  font-size: 14px;
+  line-height: 32px;
+  color: #999999;
+}
+
+#link .container .link_c .link_cr dl dd:hover {
+  color: #64A131;
+  text-decoration: underline;
+}
+
+#footer .container {
+  border-top: 1px solid #DDDDDD;
+  padding-bottom: 55px;
+}
+
+#footer .container .p1 {
+  padding-top: 10px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #999999;
+  text-align: center;
+}
+
+#footer .container .p1 a {
+  color: #999999;
+}
+
+#footer .container .p1 a:hover {
+  text-decoration: underline;
+}
+
+#footer .container .p2 {
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #64A131;
+}
+
+#footer .container div {
+  text-align: center;
+}
+
+.k1 {
+  position: fixed;
+  right: 0;
+  bottom: 37px;
+}
+
+#toTop {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}

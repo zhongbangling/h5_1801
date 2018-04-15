@@ -1,0 +1,93 @@
+#nav {
+  border-bottom: 2px solid #DDDDDD;
+}
+
+#main {
+  height: 620px;
+}
+
+#main .container {
+  height: 620px;
+}
+
+#main .container .main_t {
+  height: 96px;
+  margin-left: 148px;
+  margin-right: 148px;
+  padding-top: 48px;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+#main .container .main_t p {
+  font-size: 20px;
+  line-height: 48px;
+  color: #999999;
+}
+
+#main .container .main_b {
+  height: 438px;
+  padding-left: 148px;
+  padding-top: 34px;
+}
+
+#main .container .main_b .main_br {
+  padding-left: 75px;
+  padding-top: 75px;
+}
+
+#main .container .main_b .main_br p {
+  padding-bottom: 24px;
+  text-align: right;
+}
+
+#main .container .main_b .main_br p label {
+  padding-right: 30px;
+  font-size: 16px;
+  line-height: 42px;
+  color: #999999;
+}
+
+#main .container .main_b .main_br p input {
+  width: 295px;
+  height: 42px;
+  border: 1px solid #999999;
+}
+
+#main .container .main_b .main_br p .checkbox {
+  width: 18px;
+}
+
+#main .container .main_b .main_br p span {
+  padding-right: 68px;
+  color: #999999;
+}
+
+#main .container .main_b .main_br p a {
+  color: #999999;
+  text-decoration: underline;
+}
+
+#main .container .main_b .main_br p button {
+  width: 75px;
+  height: 42px;
+  background-color: #EAEAEA;
+  color: #333333;
+  border-radius: 5px;
+}
+
+#main .container .main_b .main_br p .btn0 {
+  width: 145px;
+}
+
+#main .container .main_b .main_br p .btn {
+  background-color: #64A131;
+  color: #fff;
+  font-size: 20px;
+}
+
+#main .container .main_b .main_br p .btn1 {
+  border: 1px solid #64A131;
+  background-color: #fff;
+  color: #64A131;
+  font-size: 20px;
+}

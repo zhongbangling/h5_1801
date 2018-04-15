@@ -1,0 +1,364 @@
+#nav .container {
+  border-bottom: 2px solid #DDDDDD;
+}
+
+#nav .container .nav_c {
+  padding-top: 42px;
+}
+
+#nav .container .nav_c li {
+  float: left;
+}
+
+#nav .container .nav_c li a {
+  font-size: 14px;
+  color: #999999;
+  padding: 0 25px;
+  border-right: 1px solid #EEEEEE;
+  display: block;
+  text-align: center;
+}
+
+#nav .container .nav_c li a:hover {
+  background-color: #DDDDDD;
+}
+
+#nav .container .nav_c li a span {
+  display: block;
+}
+
+#nav .container .nav_r {
+  padding-left: 160px;
+  padding-top: 40px;
+  position: relative;
+}
+
+#nav .container .nav_r .nav_r1 {
+  width: 180px;
+  font-size: 12px;
+  border-bottom: 1px solid #999999;
+  padding-bottom: 5px;
+}
+
+#nav .container .nav_r .i1 {
+  display: block;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: 310px;
+  top: 35px;
+}
+
+#nav .container .nav_r p {
+  font-size: 12px;
+  color: #999999;
+  line-height: 20px;
+}
+
+#nav .container .car_t {
+  width: 140px;
+  line-height: 42px;
+  background: #FAFAFA;
+  text-align: center;
+  border: 1px solid #DDDDDD;
+  cursor: default;
+  padding-left: 10px;
+  margin-top: 35px;
+  position: relative;
+}
+
+#nav .container .car_t .car_t1 {
+  display: block;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  right: 90px;
+  top: 5px;
+}
+
+#nav .container .car_t .car_t2 {
+  position: absolute;
+  right: 0;
+  width: 350px;
+  border: 1px solid #DDDDDD;
+  display: none;
+  background-color: #fff;
+  font-size: 14px;
+  color: #999999;
+}
+
+#nav .container .car_t .car_t2 .car_t3 {
+  height: 50px;
+  background-color: #FAFAFA;
+  position: relative;
+}
+
+#nav .container .car_t .car_t2 .car_t3 a {
+  width: 240px;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  line-height: 40px;
+  border-radius: 10px;
+  background: #64A131;
+  position: absolute;
+  right: 30px;
+  top: 6px;
+}
+
+#nav .container .car_t .car_t2 ul {
+  overflow: hidden;
+}
+
+#nav .container .car_t .car_t2 ul li {
+  padding: 10px;
+  font-size: 12px;
+}
+
+#nav .container .car_t .car_t2 ul li img {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+}
+
+#nav .container .car_t .car_t2 ul li .tit {
+  width: 140px;
+  line-height: 20px;
+  color: #333333;
+  height: 50px;
+  text-align: left;
+  margin: 0 10px;
+}
+
+#nav .container .car_t .car_t2 ul li div {
+  width: 100px;
+  height: 50px;
+  line-height: 20px;
+}
+
+#nav .container .car_t .car_t2 ul li div .jg {
+  padding-right: 10px;
+}
+
+#nav .container .car_t .car_t2 ul li div span {
+  padding-left: 70px;
+  color: #999999;
+  cursor: pointer;
+}
+
+#nav .container .car_t:hover .car_t2 {
+  display: block;
+}
+
+#main .container .pt {
+  padding-top: 25px;
+  font-size: 14px;
+  line-height: 56px;
+}
+
+#main .container .pt a {
+  color: #64A131;
+}
+
+#main .container .pt a:first-child {
+  font-weight: bold;
+}
+
+#main .container .main_t {
+  height: 710px;
+}
+
+#main .container .main_t .main_tl {
+  width: 502px;
+  height: 418px;
+  border: 1px solid #DDDDDD;
+}
+
+#main .container .main_t .main_tl .zoom {
+  width: 500px;
+  height: 418px;
+}
+
+#main .container .main_t .main_tl .zoom img {
+  width: 500px;
+  height: 418px;
+  border-bottom: 1px solid #DDDDDD;
+}
+
+#main .container .main_t .main_tl .main_timg {
+  width: 500px;
+  height: 140px;
+  padding: 10px;
+}
+
+#main .container .main_t .main_tl .main_timg .main_t2 {
+  width: 456px;
+  height: 120px;
+}
+
+#main .container .main_t .main_tl .main_timg .main_t2 li {
+  width: 120px;
+  height: 120px;
+  border: 1px solid #DDDDDD;
+  margin-left: 10px;
+  float: left;
+  cursor: pointer;
+}
+
+#main .container .main_t .main_tl .main_timg .main_t2 li img {
+  width: 118px;
+  height: 118px;
+}
+
+#main .container .main_t .main_tl .main_timg .left, #main .container .main_t .main_tl .main_timg .right {
+  width: 12px;
+  line-height: 120px;
+  background-color: #EBEBEB;
+  color: #333333;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+#main .container .main_t .main_tc {
+  padding-left: 50px;
+  padding-top: 30px;
+  position: relative;
+}
+
+#main .container .main_t .main_tc .title {
+  font-size: 22px;
+  line-height: 48px;
+  color: #555555;
+}
+
+#main .container .main_t .main_tc .desc {
+  font-size: 16px;
+  line-height: 40px;
+  color: #999999;
+}
+
+#main .container .main_t .main_tc .price_o {
+  font-size: 14px;
+  line-height: 70px;
+  color: #999999;
+}
+
+#main .container .main_t .main_tc .price_o span {
+  padding-left: 23px;
+  font-size: 18px;
+  line-height: 70px;
+  color: #64A131;
+  font-weight: bold;
+}
+
+#main .container .main_t .main_tc .size {
+  font-size: 14px;
+  line-height: 40px;
+  color: #999999;
+}
+
+#main .container .main_t .main_tc .size span {
+  border: 1px solid #DDDDDD;
+  background-color: #64A131;
+  font-size: 14px;
+  color: #fff;
+  padding: 6px 15px;
+  margin-left: 36px;
+}
+
+#main .container .main_t .main_tc .num {
+  font-size: 14px;
+  line-height: 40px;
+  color: #999999;
+}
+
+#main .container .main_t .main_tc .num input {
+  border: 1px solid #DDDDDD;
+  width: 50px;
+  height: 24px;
+  margin-left: 36px;
+  text-align: center;
+}
+
+#main .container .main_t .main_tc .buy {
+  height: 100px;
+}
+
+#main .container .main_t .main_tc .buy .buy1 {
+  border: 1px solid #64A131;
+  margin-top: 30px;
+  margin-left: 65px;
+  border-radius: 5px;
+  padding: 6px;
+}
+
+#main .container .main_t .main_tc .buy .buy1 a {
+  font-size: 18px;
+  line-height: 35px;
+  color: #64A131;
+  text-align: center;
+  padding: 6px 40px;
+}
+
+#main .container .main_t .main_tc .buy .add {
+  border: 1px solid #64A131;
+  background-color: #64A131;
+  margin-top: 30px;
+  margin-left: 10px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 35px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 6px 40px;
+}
+
+#main .container .main_b {
+  height: 1820px;
+  width: 1000px;
+  border: 1px solid #DDDDDD;
+  margin-bottom: 40px;
+}
+
+#main .container .main_b .main_b1 {
+  width: 1000px;
+  background-color: #F1F1F1;
+  border-bottom: 1px solid #DDDDDD;
+  overflow: hidden;
+}
+
+#main .container .main_b .main_b1 > div {
+  float: left;
+  font-size: 16px;
+  line-height: 36px;
+  padding: 0 36px;
+  color: #555555;
+  border-right: 1px solid #DDDDDD;
+  border-left: 1px solid #DDDDDD;
+}
+
+#main .container .main_b .active {
+  background-color: #fff;
+  border-top: 1px solid #64A131;
+}
+
+#main .container .main_b .xiding {
+  width: 1000px;
+  background-color: #F1F1F1;
+  border-bottom: 1px solid #DDDDDD;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 72px;
+  right: 0;
+}
+
+#main .container .main_b .xiding > div {
+  float: left;
+  font-size: 16px;
+  line-height: 36px;
+  padding: 0 36px;
+  color: #555555;
+  border-right: 1px solid #DDDDDD;
+  border-left: 1px solid #DDDDDD;
+}

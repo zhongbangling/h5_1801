@@ -1,0 +1,210 @@
+#nav {
+  height: 120px;
+}
+
+#nav .container {
+  border-bottom: 2px solid #DDDDDD;
+}
+
+#car .container {
+  border-top: 2px solid #DDDDDD;
+  padding: 0 140px;
+  position: relative;
+  padding-bottom: 40px;
+}
+
+#car .container .gw {
+  padding-top: 38px;
+  font-size: 20px;
+  color: #555555;
+  line-height: 52px;
+}
+
+#car .container .gw img {
+  width: 22px;
+  height: 22px;
+}
+
+#car .container .jx {
+  font-size: 14px;
+}
+
+#car .container .jx a {
+  position: absolute;
+  right: 145px;
+  top: 75px;
+  color: #64A131;
+}
+
+#car .container .shangpin {
+  height: 50px;
+  background-color: #F1F1F1;
+  border: 1px solid #CCCCCC;
+  margin-top: 20px;
+  border-bottom: none;
+  font-size: 12px;
+  line-height: 50px;
+  color: #999999;
+}
+
+#car .container .shangpin .name {
+  padding-left: 200px;
+}
+
+#car .container .shangpin .size {
+  padding-left: 200px;
+}
+
+#car .container .shangpin .price {
+  padding-left: 130px;
+}
+
+#car .container .shangpin .num1 {
+  padding-left: 130px;
+}
+
+#car .container .shangpin .caozuo {
+  padding-left: 130px;
+}
+
+#car .container .car_l {
+  border: 1px solid #ccc;
+  font-size: 12px;
+  padding: 20px;
+}
+
+#car .container .car_l li {
+  overflow: hidden;
+  position: relative;
+  border-bottom: 1px solid #ccc;
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+#car .container .car_l li img {
+  width: 100px;
+  height: 100px;
+}
+
+#car .container .car_l li .ti {
+  padding-top: 20px;
+  padding-left: 50px;
+}
+
+#car .container .car_l li .sie {
+  padding-top: 20px;
+  padding-left: 120px;
+}
+
+#car .container .car_l li .price_t {
+  padding-top: 20px;
+  padding-left: 140px;
+}
+
+#car .container .car_l .btn {
+  padding-top: 20px;
+  padding-left: 115px;
+}
+
+#car .container .car_l .btn input {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+#car .container .car_l .close {
+  padding: 5px 20px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#car .container .car_l .close:hover {
+  background: #ccc;
+  color: #fff;
+}
+
+#car .settle {
+  margin-top: 20px;
+  position: relative;
+}
+
+#car .settle .js {
+  border: 1px solid #64A131;
+  width: 852px;
+  height: 50px;
+  position: absolute;
+  right: 150px;
+  bottom: 0;
+}
+
+#car .settle .js .amount {
+  padding-left: 650px;
+}
+
+#car .settle .js .total {
+  font-size: 26px;
+  line-height: 50px;
+  color: #64A131;
+  font-weight: bold;
+}
+
+#car .settle .wind {
+  font-size: 18px;
+  line-height: 50px;
+  height: 50px;
+  width: 150px;
+  text-align: center;
+  background: #64A131;
+  color: #fff;
+  cursor: pointer;
+}
+
+#car .xq {
+  font-size: 16px;
+  line-height: 64px;
+  color: #555555;
+}
+
+#car .list {
+  padding-top: 20px;
+  position: relative;
+  border: 1px solid #999999;
+  height: 264px;
+}
+
+#car .list .i1 {
+  position: absolute;
+  left: 10px;
+  top: 110px;
+}
+
+#car .list .i2 {
+  position: absolute;
+  right: 10px;
+  bottom: 110px;
+}
+
+#car .list .list_l {
+  height: 264px;
+}
+
+#car .list .list_l div {
+  width: 165px;
+  margin: 0 12px;
+}
+
+#car .list .list_l div img {
+  width: 165px;
+  height: 165px;
+}
+
+#car .list .list_l div p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #999999;
+}
