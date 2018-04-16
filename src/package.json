@@ -1,0 +1,25 @@
+{
+  "name": "guoyuan",
+  "version": "1.0.0",
+  "description": "项目",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhongbangling/h5_1801.git"
+  },
+  "author": "zhong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhongbangling/h5_1801/issues"
+  },
+  "homepage": "https://github.com/zhongbangling/h5_1801#readme"
+}
